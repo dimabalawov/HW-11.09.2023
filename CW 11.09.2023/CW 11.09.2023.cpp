@@ -6,6 +6,7 @@ using namespace std;
 #include "GPU.h"
 #include "CPU.h"
 #include "SSD.h"
+unsigned int Laptop::count = 0;
 
 int main()
 {

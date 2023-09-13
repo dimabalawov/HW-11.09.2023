@@ -36,6 +36,7 @@ void Laptop::print()
 	cpu.print();
 	gpu.print();
 	ram.print();
+	cout << "AMOUNT OF LAPTOPS: " << count << endl;
 }
 Laptop::~Laptop()
 {
